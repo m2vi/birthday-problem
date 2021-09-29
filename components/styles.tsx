@@ -90,3 +90,8 @@ export const Buttput = styled.button`
     }
   }
 `;
+
+export const ToastText = styled.span`
+  display: flex;
+  align-items: center;
+`;

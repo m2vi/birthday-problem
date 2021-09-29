@@ -19,6 +19,10 @@
   --color-primary-900: hsl(229, 30%, 11%);
 }
 
+.text-primary-300 {
+  color: var(--color-primary-300);
+}
+
 .dTGAUq {
   margin: 0 !important;
 }
@@ -145,4 +149,17 @@ button {
   outline: 0;
   border: 0;
   cursor: pointer;
+}
+
+:root {
+  --toastify-color-dark: var(--color-primary-800) !important;
+  --toastify-color-success: rgb(48, 209, 88) !important;
+  --toastify-color-info: var(--color-accent) !important;
+}
+
+.Toastify__toast {
+  border-radius: 8px !important;
+  padding: 10px !important;
+  box-shadow: none !important;
+  border: 1px solid hsla(0, 0%, 100%, 0.125);
 }
